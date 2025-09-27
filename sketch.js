@@ -19,7 +19,7 @@ function setup(){
   beginh = 47;
   // next button
   nextx= windowWidth*0.8;
-  nexty= 660;
+  nexty= windowHeight*0.8;
   nextw= 50;
   nexth=50;
   // no button
