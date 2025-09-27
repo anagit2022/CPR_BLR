@@ -13,22 +13,22 @@ function setup(){
   createCanvas(windowWidth,windowHeight);
   imageMode(CENTER);
   // begin button
-  beginx = width*0.3;
-  beginy = 590;
+  beginx = windowWidth*0.3;
+  beginy = windowHeight*0.7;
   beginw = 142;
   beginh = 47;
   // next button
-  nextx= width*0.8;
+  nextx= windowWidth*0.8;
   nexty= 660;
   nextw= 50;
   nexth=50;
   // no button
- nox = width*0.1;
+ nox = windowWidth*0.1;
   noy =638 ;
   now = 142;
  noh= 47;
   // yes button
-  yesx =width*0.5 ;
+  yesx =windowWidth*0.5 ;
   yesy = 638;
   yesw = 142;
   yesh= 47;
