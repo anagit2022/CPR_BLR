@@ -14,7 +14,7 @@ function setup(){
   imageMode(CENTER);
   // begin button
   beginx = windowWidth*0.3;
-  beginy = windowHeight*0.5;
+  beginy = windowHeight*0.7;
   beginw = 142;
   beginh = 47;
   // next button
