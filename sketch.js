@@ -6,8 +6,7 @@ function preload(){
   begin_screen = loadImage("begin_screen.png");
   intro_screen = loadImage("intro_screen.png");
   cprD = loadImage("cprD.png");
-  
-
+  cprR = loadImage("cprR.png");
 }
 function setup(){
   createCanvas(windowWidth,windowHeight);
@@ -29,7 +28,7 @@ function setup(){
  noh= 47;
   // yes button
   yesx =windowWidth*0.5 ;
-  yesy = 638;
+  yesy = windowHeight*0.86
   yesw = 142;
   yesh= 47;
 }
@@ -38,15 +37,18 @@ function draw(){
   if(currentState=== "begin"){
     background("#F35F3C");
     image(begin_screen,width/2,height/2);
-  }else
-  if(currentState === "intro"){
+  }else if(currentState === "intro"){
      background("#F35F3C");
     image(intro_screen,width/2,height/2);
-  }else
-    if(currentState === "cprD"){
+  }else if(currentState === "cprD"){
     background("#F35F3C");
     image(cprD,width/2,height/2);
+    }else if(currentState === "cprR"){
+    background("#FFC5B7");
+    image(cprR,width/2,height/2);
     }
+
+  // de
   // debug helpers
   text("x : " + mouseX,40,40);
    text(" y : " + mouseY,80,40);
